@@ -10,7 +10,9 @@
       "Bash(\"C:\\Users\\Soren\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" -m spacy download en_core_web_sm)",
       "Bash(powershell -Command \"Stop-Process -Id 19040 -Force\")",
       "Bash(\"C:\\Users\\Soren\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" -m pip install \"numpy<2\")",
-      "Bash(powershell -Command \"Stop-Process -Id 15040 -Force\")"
+      "Bash(powershell -Command \"Stop-Process -Id 15040 -Force\")",
+      "Bash(git push:*)",
+      "Bash(git stash:*)"
     ],
     "deny": [],
     "ask": []
