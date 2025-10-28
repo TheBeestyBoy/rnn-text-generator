@@ -1,0 +1,36 @@
+# Railway ignore file
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (if they're large - you may want to download them in build step instead)
+# data/*.txt
+
+# Visualizations (generated at runtime)
+visualizations/
+
+# Development files
+*.log
+.DS_Store
