@@ -15,7 +15,9 @@
       "Bash(git stash:*)",
       "Bash(git add:*)",
       "Bash(git rm:*)",
-      "Bash(powershell -Command \"Remove-Item -Recurse -Force ''frontend\\.git''\")"
+      "Bash(powershell -Command \"Remove-Item -Recurse -Force ''frontend\\.git''\")",
+      "Bash(dir:*)",
+      "Bash(powershell -Command:*)"
     ],
     "deny": [],
     "ask": []
