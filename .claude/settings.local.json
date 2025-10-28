@@ -12,7 +12,10 @@
       "Bash(\"C:\\Users\\Soren\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\" -m pip install \"numpy<2\")",
       "Bash(powershell -Command \"Stop-Process -Id 15040 -Force\")",
       "Bash(git push:*)",
-      "Bash(git stash:*)"
+      "Bash(git stash:*)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(powershell -Command \"Remove-Item -Recurse -Force ''frontend\\.git''\")"
     ],
     "deny": [],
     "ask": []
